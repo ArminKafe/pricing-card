@@ -120,3 +120,24 @@ ul {
     font-size: 0.8rem;
     opacity: 0.8;
 }
+
+@media (max-width: 650px) {
+    .card {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left, .right {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .left h2, .left h3, .left p {
+        margin-bottom: 15px;
+    }
+}
+
